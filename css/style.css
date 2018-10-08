@@ -16,3 +16,48 @@ body {
 img {
   max-width: 100%;
 }
+
+.container {
+  width: 924px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.visually-hidden {
+  display: none;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px ;
+  align-items: center;
+  background: #4e2c1e;
+}
+
+.contact-link {
+  font-family: "Book Antiqua", "Arial", sans-serif;
+  font-size: 26px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__feedback-wrap {
+  margin: 5px;
+  padding: 0 26px;
+  border-radius: 5px;
+  font-family: "Book Antiqua", "Arial", sans-serif;
+  font-size: 16px;
+  color: #472800;
+  text-decoration: none;
+  text-align: center;
+  background: linear-gradient();
+  background-color: #e8c478;
+
+
+}
