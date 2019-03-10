@@ -49,15 +49,63 @@ img {
 
 .header__feedback-wrap {
   margin: 5px;
-  padding: 0 26px;
+  padding: 4px 26px;
   border-radius: 5px;
   font-family: "Book Antiqua", "Arial", sans-serif;
   font-size: 16px;
   color: #472800;
   text-decoration: none;
   text-align: center;
-  background: linear-gradient(top, #faedc7, #eacf8f, #e8c478, #fff9e0, #fff9e0);
-  background-color: #e8c478;
+  background: linear-gradient(to top, #faedc7, #eacf8f, #e8c478, #fff9e0, #fff9e0);
+}
 
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px ;
+  align-items: center;
+  background: #;
+}
 
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__item {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  list-style: none;
+  text-align: center;
+}
+
+.navigation__link {
+  font-family: "Verdana", "Arial", sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  padding: 16px 26px;
+  background: linear-gradient(to top, #a4671f, #834c0b, #77470b, #b0782b, #e9c087);
+  border-top: 1px solid #f4e2c8;
+  border-bottom: 1px solid #d5bda0;
+  border-right: 1px solid #77470b;
+  border-left: 1px solid #d2b690;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation__link--radius-left {
+  border-radius: 8px 0 0 8px;
+}
+
+.navigation__link--radius-right {
+  border-radius: 0 8px 8px 0;
+}
+
+.navigation__item-logo {
+  width: 287px;
 }
